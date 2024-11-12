@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>strona pIOTR pietrzak-PSI</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div style="background-color:grey;">
+        <h1><center>PSI Piotr Pietrzak</center></h1>
+    </div>
+    
+    <div style="background-color:grey;">
+        <h1><center>PSI Piotr Pietrzak</center></h1>
+    </div><form action="onclick" method="post" enctype="text/plain"> 
+<font size="6"><center> FOMRULARZ  </center></font>
+<table>
+<tr>
+<td> Imie i Nazwisko:</td><td> <input type="text" id="nazwisko_i_imie"  size="30" maxlenght="40" /><td>
+</tr>
+<tr>
+<td> ADRES E-MAIL: </td><td> <input type="e-mail" id="email"  size="40" maxlenght="40" /></td>
+</tr>
+<tr>
+<td> HASŁO: </td><td> <input type="password" id="haslo" size="10" maxlenght="10" /><td>
+</tr>
+</table>
+
+<fieldset>
+<legend> twoj system operacyjny: </legend> </br>
+<input type="radio" name="plec" value="mezczyzna"/> windows <br />
+<input type="radio" name="plec" value="kobieta"/> linux <br /> 
+<input type="radio" name="plec" value="kobieta"/> inne <br /> 
+</fieldset>
+<fieldset>
+<legend> PŁEĆ: </legend> </br>
+<p><label for="male"> mężczyzna </label>
+        <input type="radio"  name="gender" id="male"  value="mezczyzna" > <br />
+        <label for="famale"> kobieta </label>
+        <input type="radio"  name="gender" id="famale"  value="kobieta" > <br /> </p>
+
+</fieldset>
+
+
+<p></p>
+
+<fieldset >
+<legend >
+<p> ZNAJOME CI JĘZYKI: </p></legend>
+<p> <input type="checkbox" id="nazwa_jezyki" value="wartosc_angielski" checked="checked"  /> ANG </p>
+<p> <input type="checkbox" id="nazwa_jezyki" value="wartosc_niemiecki" /> NIE </p>
+<p> <input type="checkbox" id="nazwa_jezyki" value="wartosc_chinski" /> CHN </p>
+
+</fieldset>
+
+
+<p><select name="nazwa_owoce" size="5" multiple="multiple">
+<optgroup label="ULUBIONE SPORTY">
+<option value="truskawki" /> Piłka nożna
+<option value="banany" /> Siatkówka
+<option value="maliny" selected /> Boks </optgroup> </select></p>
+
+<p><input list="blok" name="przegladarki" />  
+	  <datalist id="blok">
+		
+    		<option value="Internet Explorer">
+  		<option value="Firefox">
+	 	<option value="Chrome">
+		<option value="Opera">
+		<option value="Safari">
+	  </datalist>   <input type="submit" name=Przelij>  </p>
+
+
+
+<p><select id="days[ ]" name="days[ ]" size="7" multiple="multiple">
+<optgroup label="DNI W KTÓRYCH JESTES DOSTEPNY">
+<option> SOBOTA </option>
+<option> NIEDZIELA </option> </optgroup>
+<optgroup label="DNI W KTORYCH PRACUJESZ">
+<option> PONIEDZIAŁEK </option>
+<option> WTOREK </option>
+<option> SRODA </option>
+<option> CZWARTEK </option>
+<option> PIATEK </option> </optgroup> </select></p>
+
+
+<p>
+<textarea cols="50" rows="6 ">
+Krzysztof Barmański
+40-748
+</textarea>
+</p>
+
+<p>
+<textarea cols="50" rows="6 ">
+Podaj tutaj swój adres zamieszkania
+</textarea>
+</p>
+
+
+
+
+<p><input type="reset" id="q"  /> - odświerz</p>
+<p><input type="button" name="leavel" value="Opusc stronę!"/> - input </p>
+
+<p><button type="button" id="kupteraz" name="przycisk_kupowania" onclick="alert('Zakupiono')"> Kupuj teraz! </button> - button </p>
+<p><input type="file" name="leavel" value="Przeglšdaj!"/> - input </p>
+
+<fieldset>
+<legend> WYKSZTAŁCENIE:  </legend>
+<p><input type="radio" name="gr_op" value="Podstawowe" accesskey="P" /> Podstawowe <br />
+<input type="radio" name="gr_op" value="rednie" accesskey="S" /> Srednie <br />
+<input type="radio" name="gr_op" value="Wyższe" accesskey="W" /> Wyższe  </p>
+</fieldset>
+<br />
+
+<p><input type="hidden" name="nazwa " value="google" /> </p>
+
+<input type="image" name="nazwa" src="foty/gekon.jpg" />   <br/>
+
+
+
+<p> PRZYCISK WYSYŁANIA I CZYSZCZENIA PÓL <br />
+
+<input type="submit" value="wyslij" />    -  PRZYCISK PRZESYŁANIA - input  <br />
+
+<input type="reset" value="wyczysc" />  -  odświerz <br />
+</p>
+
+
+<p>
+ <br />  
+<button type="submit" name="przycisk1"> Wyslij </button> <br />
+<button type="reset" name="przycisk2" > Usuń  </button><br />
+<button type="button" name="przycisk3" onclick="allert(NIE moge ..)" style="font: 12pt arial; background:red;" /> Powrót  </button><br /></p>
+
+
+<button type="submit" name="OBRAZEK"> <img src="foty/zyrafa.png"  alt="formularz"> </button> </p>
+</font>
+
+
+
+
+
+
+<fieldset>
+<legend>
+USPRAWNIENIA W FORMULARZACH [HTML 5]
+</legend>
+
+<input name="adres" type="text" autofocus />   <br />
+
+<input name="adres" type="text" autocomplete="on" />   
+<br />
+
+<input name="blok" type="text" list="jezyki" /> 
+<datalist id="jezyki" >
+<option> Angielski </option>
+<option> Francuski </option>
+</datalist> <input type="submit" name=Przeslij>
+<br />
+
+ <input type="text" required />  
+<br />
+TYPY PÓL W HTML5 DO WPROWADZANIA DANYCH:
+<input type="email" value="nazwa@gmail.com"> - wprowadzenie adresu e-mail <br />
+<input type="url"> - wprowadzanie adresu URL <br />
+<input type="number" min="1" max="7" step="1" value="2"> - wprowadzanie liczby calkowitej z podanego przydzialu <br />
+<input type="date" value="2015-10-30"> - do wprowadzania daty <br />
+<input type="color" value="#F0F0F0"> - do wprowadzania koloru <br />
+
+<br />
+Lista proponowanych wartosci wyswietlana, jako lista rozwijalna.
+<input list="blok" name="przegladarki" />
+<datalist id="blok">
+<option value="Internet Explorer">
+<option value="Firefox">
+<option value="Chrome"> 
+<option value="Opera"> 
+<option value="Safari"> 
+</datalist> <input type="submit" name=Przeslij>
+<br />
+</form>
+Element wyjsciowy przedstawia wynik obliczenia <br/>
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+<br/>
+<br />
+
+</fieldset>
+
+
+<p><br/></p>
+</section>
+
+</main>
+       <div style="float:right; width:70%;">
+        
+    </div>
+
+    <div style="background-color:grey; clear:both;">
+     
+    </div>
+</body>
+</html>
