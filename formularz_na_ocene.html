@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>strona pIOTR pietrzak-PSI</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div style="background-color:grey;">
+        <h1><center>PSI Piotr Pietrzak</center></h1>
+    </div>
+    
+    <div style="float:left; width:30%; height: 550px;">
+        <h3>HTML</h3>
+        <a href="index.html">STRONA GŁÓWNA</a><br />
+		<a href="kolory.html">KOLORY</a><br />
+        <a href="nauczyciele.html">NAUCZYCIELE</a><br />
+        <a href="zdjecia.html">ZDJĘCIA</a><br />
+        <a href="tabele.html">TABELA</a><br />
+        <a href="Tabele na ocene.html">TABELA NA OCENĘ</a><br />
+        <a href="listy.html">LISTY</a><br />
+        <a href="pietrzak_lista.html">LISTY NA OCENĘ</a><br />
+		<a href="mapy.html">MAPY ODSYLACZY</a><br />
+		<a href="formularz.html">FORMULARZ</a><br />
+    </div>
+    
+    <div style="float:right; width:70%;">
+	<body style="background-color:lightblue"
+	<hl><span style="color:green">ADRES </hl> </span>
+<font action="mailto:nauka@gmail.com" method="get">
+<label>
+<p><input type="radio" name="wybor" value="wartosc_podstawowy"> Podstawowy </p> </input>
+</label>
+<label>
+<p><input type="radio" name="wybor" value="wartosc_do_wysylki"> do wysylki </p> </input>
+</label>
+<label>
+<p><input type="radio" name="wybor" value="wartosc_korespondalny"> korespondalny </p> </input>
+</label>
+<label>
+<p><input type="radio" name="wybor" value="wartosc_odbiorcy"> odbiorcy </p> </input>
+</label>
+
+
+<form>
+<p> NAZWA <input type="text name="Nazwa" value="Sklep Wielobranżowy Poligraf" size="30" /> </p>
+<p> Ulica i numer <input type="text name="Ulica i numer" size="30" /> </p>
+<p> Kod Pocztowy <input type="text name="Kod Pocztowy" value="40-748" size="10" /> </p>
+<p> Miejscowość <input type="text name="Miejscowość" value="Katowice" size="30" /> </p>
+<p> telefon <input type="text name="Telefon" value="601 601 601" size="30" /> </p>
+<p> E-mail <input type="text name="E-mail" value="info@gmail.com" size="30" /> </p>
+</form>
+	<form>
+		<hl><span style="color:green"> Wysyłka </hl> </span>
+		
+<form>
+<p>Wysyłka<input list="blok" name="wysyłka" />
+	<datalist id="blok">
+		<option value="ekonomiczna">
+		<option value="priorytetyczna">
+		<option value="ekspresowa">
+	</datalist>
+</form>
+<form>
+<p> Waga (g) <input type="text" name="waga" size="10" /> </p>
+
+<p>Gabaryty
+<select name="nazwa_rozmiar" size="4" multiple>
+	<option value="S" /> S (28 x 8 x 64cm)
+	<option value="M" /> M (32 x 12 x 70cm)
+	<option value="L" /> L (36 x 16 x 74cm)
+	<option value="XL" /> XL (40 x 20 x 80cm)
+ </SELECT></P></FORM>
+ 
+ <form>
+ <p> Wartość <input type="text" name="wartość" value="0,00zl" size="5" </input></p>
+ <p> Na rachunku <input type="text" name=ć"Na rachunku" size="60" </input></p>
+ <p> Data Wysyłki <input type="data" value="20-10-2024" </input></p>
+ </form>
+ 
+ <br>
+ 
+ <form>
+ <label>
+ <p><input type="checkbox" name="wybierz" value="wartość_wyboru"> 	Z - żądam zwrotu odeslania </p> </input>
+ </label>
+ <label>
+<p><input type="checkbox" name="wybierz" value="wartość_wyboru"> R - Polecenie </p> </input>
+ </label>
+ <label>
+<p><input type="checkbox" name="wybierz" value="wartość_wyboru"> O - Potwierdzenie odbioru </p> </input>
+ </label>
+ <label>
+<p><input type="checkbox" name="wybierz" value="wartość_wyboru"> W - zadeklarowanie wartości </p> </input>
+ </label>
+ <label>
+<p><input type="checkbox" name="wybierz" value="wartość_wyboru"> S - sprawdzenie zawartości </p> </input>
+ </label>
+ <label>
+<p><input type="checkbox" name="wybierz" value="wartość_wyboru"> K - ostrożnie </p> </input>
+</label>
+</form>
+
+<br>
+
+<form>
+<p> Uwagi </p>
+<P><textarea cols="60" rows="7">
+prosze o wpisanie wszelkich  uwag.
+</textarea>
+</form>
+
+<br>
+
+<form>
+<p><button type="sumbit" id="wyslij" name="Wyślij" value="wysłano" onclick="alert" ('wysłano')"> Wyślij </button> </p>
+
+
+
+<p><button type="sumbit" name="Anuluj"> Anuluj </button> </p>
+</body>
+</html>
